@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>ELEVANTTA • Agencia de Marketing Digital</title>
+  <meta name="description" content="Agencia creativa integral: diseño, marketing, producción y tecnología. Planes ASCIENDE, proceso claro y reservación con envío por email." />
+  <meta name="theme-color" content="#0b2a66" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header is-top" id="siteHeader">
+    <div class="bar">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <img src="assets/logo/elevantta-logo.svg" alt="ELEVANTTA" class="brand-logo" />
+      </a>
+      <nav class="nav-links">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#quienes">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#planes">Planes</a>
+        <a href="#reservacion">Reservación</a>
+      </nav>
+      <div class="spacer"></div>
+      <a class="btn small" href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO tipo Funnel -->
+    <section class="hero hero-funnel" id="inicio">
+  <!-- Slides de fondo -->
+  <div class="hero-slides" id="heroSlides">
+    <div class="slide is-active" style="--img: url('IMAGENES/Header/1.png')"></div>
+    <div class="slide" style="--img: url('IMAGENES/Header/2.png')"></div>
+    <div class="slide" style="--img: url('IMAGENES/Header/3.png')"></div>
+    <div class="slide" style="--img: url('IMAGENES/Header/4.png')"></div>
+  </div>
+
+  <!-- Capa de color/tinte -->
+  <div class="overlay" aria-hidden="true"></div>
+
+  <!-- Contenido del hero -->
+  <div class="inner left">
+    <h1 class="reveal" data-anim="fade-up">Agencia de Marketing<br/>Digital</h1>
+    <p class="lead reveal" data-anim="fade-up" data-delay=".06">
+      En ELEVANTTA nos centramos en optimizar las acciones digitales de marcas que
+      buscan aumentar su flujo de ventas y posicionamiento.
+    </p>
+    <div class="btns reveal" data-anim="fade-up" data-delay=".12">
+      <a class="btn reserve-pay" href="#" data-product="Servicio Integral">Lo Necesito</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CARTAS superpuestas (aparecen desde abajo y quedan a mitad del hero) -->
+    <section class="pilares-over" aria-label="Pilares">
+      <div class="cards-over" data-stagger>
+        <article class="pill-card shadow lift" data-anim="rise-up">
+          <div class="pill-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M3 5h18v14H3V5zm2 2v10h14V7H5zm2 2h2v6H7V9zm4 2h2v4h-2v-4zm4-2h2v6h-2V9z"/></svg>
+          </div>
+          <h4>Análisis</h4>
+          <p>Te escuchamos y evaluamos tus necesidades antes de proponerte la solución más eficiente.</p>
+        </article>
+
+        <article class="pill-card shadow lift" data-anim="rise-up" data-delay=".06">
+          <div class="pill-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+          </div>
+          <h4>Estrategia</h4>
+          <p>Desarrollamos y ejecutamos el mejor plan de acciones para cumplir tus objetivos.</p>
+        </article>
+
+        <article class="pill-card shadow lift" data-anim="rise-up" data-delay=".12">
+          <div class="pill-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 100 18 9 9 0 000-18zm1 13h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+          </div>
+          <h4>Consultoría</h4>
+          <p>Incluimos acompañamiento permanente para que te enfoques en vender.</p>
+        </article>
+
+        <article class="pill-card shadow lift" data-anim="rise-up" data-delay=".18">
+          <div class="pill-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M3 13h4v8H3v-8zm7-6h4v14h-4V7zm7 10h4v4h-4v-4z"/></svg>
+          </div>
+          <h4>Monitoreo</h4>
+          <p>Seguimiento de cifras para replantear o potenciar acciones y mejorar el rendimiento.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS — NUEVO DISEÑO -->
+    <section class="who block light" id="quienes">
+      <div class="inner who-grid">
+        <!-- Columna izquierda: texto -->
+        <div class="who-text reveal" data-anim="fade-up">
+          <span class="eyebrow">Quiénes somos</span>
+          <h2>Centramos las estrategias en tus ventas</h2>
+          <p class="kicker">
+            En <strong>ELEVANTTA</strong> dedicamos nuestras habilidades y experiencia a conseguir lo más importante para tu marca:
+            <strong>los clientes</strong>.
+          </p>
+          <p>
+            Analizamos, proponemos, desarrollamos y supervisamos las mejores estrategias para impulsar tus
+            <strong>ventas</strong> y los demás objetivos a los que apuntes. Aterrizamos ideas en planes accionables y medibles.
+          </p>
+          <p>
+            Nuestro equipo combina creatividad, marketing y tecnología para construir marcas memorables y campañas que
+            convierten. Trabajamos como parte de tu equipo, con comunicación clara y optimización continua.
+          </p>
+          <a href="#servicios" class="btn accent">Me Interesa</a>
+        </div>
+
+        <!-- Columna derecha: mosaico 2×2 -->
+        <div class="who-mosaic">
+          <div class="who-col-left">
+            <div class="who-tile img reveal" data-anim="fade-up" data-delay=".05">
+              <img src="https://images.unsplash.com/photo-1551281044-8d8d0d8e8f54?q=80&w=1200&auto=format&fit=crop" alt="Planificación y métricas en equipo">
+            </div>
+            <div class="who-tile cta reveal" data-anim="fade-up" data-delay=".12">
+              <div class="cta-inner">
+                <div class="cta-icon">
+                  <!-- rocket -->
+                  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+                    <path fill="currentColor" d="M12 2c3.87 0 7 3.13 7 7 0 4.97-4.03 9-9 9H7l-4 4 1.5-5.5V14c0-4.97 4.03-9 9-9zm-1 5a3 3 0 103 3 3 3 0 00-3-3z"/>
+                  </svg>
+                </div>
+                <h3>Enfócate en lo importante</h3>
+                <p>No solo desarrollamos estrategia; evaluamos resultados y te proponemos mejoras constantes.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="who-col-right">
+            <div class="who-tile img tall reveal" data-anim="fade-up" data-delay=".18">
+              <img src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?q=80&w=1200&auto=format&fit=crop" alt="Equipo de ELEVANTTA en sesión de trabajo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUÉ ELEGIRNOS -->
+    <section class="block" id="porque">
+      <div class="inner">
+        <h2 class="reveal" data-anim="fade-up">Tus objetivos son nuestras metas</h2>
+        <div class="why-grid big-text" data-stagger>
+          <article class="why" data-anim="fade-up">
+            <h5>Creatividad con estrategia</h5>
+            <p>Ideas que nacen de insights y se aterrizan en campañas accionables. Alineamos el concepto a objetivos de negocio y al momento de tu marca.</p>
+          </article>
+          <article class="why" data-anim="fade-up" data-delay=".06">
+            <h5>Cercanía y acompañamiento</h5>
+            <p>Trabajamos como parte de tu equipo: comunicación directa, feedback frecuente y soporte en decisiones clave del día a día.</p>
+          </article>
+          <article class="why" data-anim="fade-up" data-delay=".12">
+            <h5>Resultados medibles</h5>
+            <p>KPIs claros, reportes comprensibles y optimización constante para mejorar CTR, alcance y conversiones sin desperdiciar presupuesto.</p>
+          </article>
+          <article class="why" data-anim="fade-up" data-delay=".18">
+            <h5>Tecnología</h5>
+            <p>Herramientas que ordenan procesos y elevan el performance: tracking, automatizaciones y tableros para decisiones con datos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="block light" id="servicios">
+      <div class="inner">
+        <h2 class="reveal" data-anim="fade-up">Podemos atender estas áreas</h2>
+        <div class="services-grid" data-stagger>
+          <article class="svc-card tilt" data-anim="rise"><h4>Branding</h4><ul><li>Logo e identidad</li><li>Manual de marca</li><li>Aplicaciones</li></ul><a href="#reservacion" class="link" data-product="Branding">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".05"><h4>Marketing Digital</h4><ul><li>Social & Contenidos</li><li>Meta/Google Ads</li><li>Email/SMS</li></ul><a href="#reservacion" class="link" data-product="Marketing Digital">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".1"><h4>Producción Audiovisual</h4><ul><li>Spots y videos</li><li>Motion/Animación</li><li>Postproducción</li></ul><a href="#reservacion" class="link" data-product="Producción Audiovisual">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".15"><h4>Web & Apps</h4><ul><li>Landing/Corporativo</li><li>E-commerce</li><li>Apps a medida</li></ul><a href="#reservacion" class="link" data-product="Web & Apps">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise"><h4>ATL/BTL & Merchandising</h4><ul><li>Activaciones & POP</li><li>Material impreso</li><li>Experiencias</li></ul><a href="#reservacion" class="link" data-product="ATL/BTL & Merchandising">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".05"><h4>Consultoría</h4><ul><li>Estrategia de marca</li><li>Auditorías</li><li>Roadmap</li></ul><a href="#reservacion" class="link" data-product="Consultoría">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".1"><h4>Networking</h4><ul><li>Partners & alianzas</li><li>Ferias & medios</li><li>Influencers</li></ul><a href="#reservacion" class="link" data-product="Networking">Lo Necesito →</a></article>
+          <article class="svc-card tilt" data-anim="rise" data-delay=".15"><h4>Fotografía</h4><ul><li>Producto & lifestyle</li><li>Eventos</li><li>Retoque</li></ul><a href="#reservacion" class="link" data-product="Fotografía">Lo Necesito →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANES -->
+    <section class="block light" id="planes">
+      <div class="inner">
+        <h2 class="reveal" data-anim="fade-up">Planes ASCIENDE</h2>
+        <div class="plans-grid plans-roomy" data-stagger>
+          <article class="plan tilt" data-anim="fade-up">
+            <h4>Básico Digital</h4>
+            <ul>
+              <li>2 publicaciones/semana + 2 historias.</li>
+              <li>2 reels/mes con edición ligera.</li>
+              <li>Calendario editorial y copywriting.</li>
+              <li>Respuesta a mensajes básicos.</li>
+              <li>Asesoría mensual + reporte sintético.</li>
+            </ul>
+            <a href="#reservacion" class="btn" data-product="Plan Básico Digital">Cotiza ahora</a>
+          </article>
+          <article class="plan highlight tilt" data-anim="fade-up" data-delay=".06">
+            <h4>Posiciona tu Marca</h4>
+            <ul>
+              <li>3 publicaciones/semana + 2 historias.</li>
+              <li>3 reels/mes + 1 carrusel al mes.</li>
+              <li>Setup de pauta (Meta/Google) + presupuesto sugerido.</li>
+              <li>Lineamientos de marca y plantillas.</li>
+              <li>Tarjetas, uniforme y asesoría quincenal con métricas.</li>
+            </ul>
+            <a href="#reservacion" class="btn" data-product="Plan Posiciona tu Marca">Cotiza ahora</a>
+          </article>
+          <article class="plan tilt" data-anim="fade-up" data-delay=".12">
+            <h4>Actívate y Vende</h4>
+            <ul>
+              <li>4 publicaciones/semana + 3 historias.</li>
+              <li>6 reels/mes + mini sesión de fotos.</li>
+              <li>Embudos y remarketing (Pixel/GA4 básico).</li>
+              <li>Automatizaciones iniciales (email/SMS).</li>
+              <li>Asesoría y seguimiento semanal + reporte ampliado.</li>
+            </ul>
+            <a href="#reservacion" class="btn" data-product="Plan Actívate y Vende">Cotiza ahora</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- PROCESO -->
+    <section class="block" id="proceso">
+        <div class="inner">
+            <h2 class="reveal" data-anim="fade-up">¿Cómo empezamos a optimizar tu marca?</h2>
+            <div class="process-rail" aria-hidden="true"></div>
+
+            <!-- AGREGA steps-overlap AQUÍ -->
+            <div class="steps steps-tidy steps-overlap" data-stagger>
+            <div class="step" data-anim="slide-left">
+                <span class="num">1</span>
+                <h5>Reunión Inicial</h5>
+                <p>Te escuchamos para alinear necesidades y objetivos. Revisamos tu contexto,
+                público y competidores para priorizar.</p>
+            </div>
+
+            <div class="step" data-anim="slide-up" data-delay=".06">
+                <span class="num">2</span>
+                <h5>Estrategia</h5>
+                <p>Plan por canal con metas medibles (KPIs, mensajes, formatos y calendario de ejecución).</p>
+            </div>
+
+            <div class="step" data-anim="slide-right" data-delay=".12">
+                <span class="num">3</span>
+                <h5>Implementación</h5>
+                <p>Ejecutamos el plan con especialistas: diseño, pauta, contenido, web y automatizaciones.</p>
+            </div>
+
+            <div class="step" data-anim="slide-up" data-delay=".18">
+                <span class="num">4</span>
+                <h5>Monitoreo</h5>
+                <p>Seguimiento, reportes y mejoras continuas para optimizar inversión y crecimiento.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CITA -->
+    <section class="quote">
+      <div class="inner">
+        <blockquote data-anim="fade-in">“El contenido es fuego; las redes sociales son gasolina.”</blockquote>
+        <cite data-anim="fade-in" data-delay=".06">— Jay Baer</cite>
+      </div>
+    </section>
+
+    <!-- RESERVACIÓN -->
+<section class="block" id="reservacion">
+  <div class="inner">
+    <h2 class="reveal" data-anim="fade-up">¿Listo para elevar tu marca?</h2>
+    <p class="lead reveal reservacion-lead" data-anim="fade-up" data-delay=".04">
+      Elige fecha y horario para agendar tu cita.
+    </p>
+
+    <div class="booking">
+      <!-- Calendario -->
+      <div class="panel card reveal tilt" data-anim="fade-up">
+        <div class="calendar" id="calendar">
+          <div class="cal-header">
+            <button class="btn secondary" id="prevMonth" type="button" aria-label="Mes anterior">◀</button>
+            <div id="monthLabel" class="month-label"></div>
+            <button class="btn secondary" id="nextMonth" type="button" aria-label="Mes siguiente">▶</button>
+          </div>
+          <div class="cal-grid cal-weekdays" id="weekdays"></div>
+          <div class="cal-grid" id="days"></div>
+        </div>
+      </div>
+
+      <!-- Formulario -->
+      <div class="panel card reveal tilt form-card" data-anim="fade-up" data-delay=".06">
+            <form class="form-grid" onsubmit="return false">
+            <div class="field">
+                <label for="name">Nombre y apellido</label>
+                <input class="input" id="name" type="text" placeholder="Carlos Pérez" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Correo</label>
+                <input class="input" id="email" type="email" placeholder="correo@ejemplo.com" required>
+            </div>
+
+            <div class="field col-2">
+                <label for="time">Horario disponible</label>
+                <select id="time" disabled>
+                <option value="">Selecciona una fecha primero</option>
+                </select>
+            </div>
+
+            <div class="field col-2">
+                <label for="notes">Notas (opcional)</label>
+                <textarea id="notes" rows="3" placeholder="Detalles adicionales, teléfono, etc."></textarea>
+            </div>
+
+            <div class="btns end col-2">
+                <button class="btn" id="sendEmail" type="button">Realizar reservación</button>
+            </div>
+
+            <div class="pay-summary col-2" id="summary"></div>
+            <p id="statusMsg" class="status col-2"></p>
+            </form>
+        </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- PASARELA DE PAGO (DEMO) -->
+  <div class="modal-backdrop" id="payModal" aria-hidden="true">
+    <div class="modal">
+      <div class="panel card">
+        <h3 class="modal-title">Pasarela de pago</h3>
+        <p class="lead modal-sub">Demo segura (no procesa pagos reales).</p>
+        <div class="pay-summary" id="paySummary"></div>
+
+        <div class="field" style="margin-top:10px">
+          <label for="card">Tarjeta</label>
+          <input class="input" id="card" inputmode="numeric" autocomplete="cc-number" placeholder="4242 4242 4242 4242" maxlength="19">
+        </div>
+        <div class="pay-row">
+          <div class="field">
+            <label for="exp">Vencimiento (MM/AA)</label>
+            <input class="input" id="exp" inputmode="numeric" placeholder="12/29" maxlength="5">
+          </div>
+          <div class="field">
+            <label for="cvv">CVV</label>
+            <input class="input" id="cvv" inputmode="numeric" placeholder="123" maxlength="4">
+          </div>
+        </div>
+        <div class="field">
+          <label for="holder">Titular</label>
+          <input class="input" id="holder" placeholder="Carlos Pérez">
+        </div>
+
+        <div class="btns" style="justify-content:space-between;margin-top:8px">
+          <button class="btn secondary" id="cancelPay" type="button">Cancelar</button>
+          <button class="btn" id="confirmPay" type="button">Pagar</button>
+        </div>
+        <p id="payMsg" style="margin-top:10px"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACTO / FOOTER -->
+  <footer>
+    <div class="inner">
+      <p>© 2025 ELEVANTTA. Todos los derechos reservados.</p>
+      <p class="small">Hecho con creatividad y estrategia ✦</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
